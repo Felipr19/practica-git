@@ -12,9 +12,12 @@ Las cartas numericas suman su valor, las figuras como __"J , O , K"__ suman 10 y
 
 ## Diagramas:
 
-Diagrama de casos de uso:
+-Diagrama de casos de uso:
+
 ![Casos de uso](out\Diagramas\casos de uso\casos de uso.png)
 
-Diagrama de clases :
+-Diagrama de clases :
+
 ![DIagramas de clases](out\Diagramas\Clases\Clases.png)
+
 Diagrama de secuencia:
