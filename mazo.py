@@ -1,6 +1,6 @@
 from carta import *
 from random import shuffle
-class mazo: 
+class Mazo: 
     def __init__(self, jugador = False) -> None:
         if jugador:
             self.cartas=[]
