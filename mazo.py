@@ -31,7 +31,7 @@ class Mazo:
 
 class MazoFrances(Mazo):
     def __init__(self, jugador=False):
-        self.pintas = ['Diamantes', 'Corazones', 'Picas', 'Treboles']
+        self.pintas = ['Diamantes', 'Corazones', 'Picas', 'Trebol']
         super().__init__(jugador)
 
 

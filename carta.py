@@ -16,17 +16,20 @@ class Carta:
 
     def obtener_ruta(self):
         if self.pinta in ['Bastos', 'Espadas', 'Monedas', 'Copas']:
-            mazo="Baraja_Espanola"
+    
             if self.valor in ('J','K','Q'):
                 valor = 10
             elif self.valor == 'A':
                 valor = 1
             else:
-                valor = self.valor 
-        else:
-            mazo=""
+                valor = self.valor
+            
+            ruta=f"Baraja_Espanola\{self.pinta}\{self.pinta}_{valor}.jpg" 
 
-        ruta=f"{mazo}\{self.pinta}\{self.pinta}_{valor}.jpg"
+        else:
+            ruta=f"Baraja_Francesa\{self.pinta}\{self.pinta}_{self.valor}.png" 
+
+        
         self.imagen =pygame.image.load(ruta)
 
     def mostrar_carta(self):

@@ -2,7 +2,7 @@ import pygame
 import sys
 from juego import *
 
-j = Juego(MazoEspanol())
+j = Juego(MazoFrances())
 j.iniciar_juego()
 j.jugar()
 ganador = j.valorar_juego()
