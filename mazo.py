@@ -26,6 +26,7 @@ class Mazo:
         return valor
     
     def entregar_carta(self):
+        self.cartas[0].obtener_ruta()
         return self.cartas.pop(0)
 
 class MazoFrances(Mazo):
